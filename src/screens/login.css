@@ -1,0 +1,21 @@
+body
+{
+    background-color: blue;
+    background-image: url("back.jpg");
+}
+.box
+{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+    background-color: rgba(51, 156, 242, 0.7);
+}
+img
+{
+    width: 100px;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
