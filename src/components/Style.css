@@ -1,0 +1,73 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("BACKGROUND.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:coVER;
+}
+
+.LOGIN-box
+{
+  width: 350px;
+  height: 330px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10PX;
+  background-color: rgba(99,99,99,0.7);
+  border-radius: 15px;
+  position: relative;
+
+}
+.login
+{
+  margin-top: 25px;
+  width:250px;
+  height: 200px;
+  padding: 50px;
+  position: RELATIVE;
+}
+.material-icons
+{
+background-color: aliceblue;
+size: 5px;
+}
+.input
+{
+background-color: pink;
+}
+.input-container
+{
+display: -ms-flexbox; /* IE10 */
+display: flex;
+height: 40PX;
+width: 100%;
+margin-bottom: 15px;
+}
+
+
+.input-field {
+width: 100%;
+padding: 10px;
+outline: none;
+}
+
+.material-icons {
+padding: 10px;
+background: red;
+color: white;
+min-width: 50px;
+text-align: center;
+}
+.input-field:focus {
+border: 2px solid red;
+}

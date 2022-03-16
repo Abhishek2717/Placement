@@ -12,10 +12,45 @@ body
     border-radius: 50px;
     background-color: rgba(51, 156, 242, 0.7);
 }
-img
+.logo
 {
-    width: 100px;
+    /* width: 100px;
     border-radius: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 10px;
+    align-items: center; */
+    margin: auto;
+    Display: flex;
+    Height: 100px;
+    Width: 100px; 
+    Align-Items: center;
+    Justify-Content:center;
+}
+.innerbox
+{
+    width:60%;
+    padding:10%;
+    margin:auto;
+    margin-bottom: 10px;
+    
+}
+.innnerbox
+{
+    width:60%; 
+    padding:10px;
+    margin-left: 20%;
+    margin-right:20%;
+    Align-Items: center;
+    Justify-Content:center;
+}
+button
+{
+    width: 60%;
+    /* margin: auto;
+    Align-Items: center;
+    Justify-Content:center; */
+    height: 40px;
+    margin-left: 22%;
+    border-radius:100px;
+    background-color: #03e9f4;
+    box-shadow: none;
 }

@@ -39,13 +39,17 @@ const Login = () => {
       <>
         <body>
           <div className="box">
-              <img src='logo.jpg' alt="hello"></img>
+            <div className='innerbox'>
+              <div className='logo'>
+              <img src='logo.jpg' alt="hello" ></img>
+              </div>              <br></br><br></br>
             <form action="" onSubmit={handleSubmit}>
-              <div>
+              <div className='innnerbox'>
                 {/* <i style="font-size:24px" class="fas">
                 &#xf406;
               </i> */}
                 <label htmlFor="username">Username</label>
+                <br></br>
                 <input
                   type="text"
                   autoComplete="off"
@@ -56,12 +60,12 @@ const Login = () => {
                 />
               </div>
 
-              <div>
+              <div className='innnerbox'>
                 {/* <i style="font-size:24px" class="fas">
                 &#xf023;
               </i> */}
                 <label htmlFor="password">Password</label>
-
+<br></br>
                 <input
                   type="text"
                   autoComplete="off"
@@ -71,9 +75,11 @@ const Login = () => {
                   id="password"
                 />
               </div>
-
+              <br></br>
               <button type="submit">Login In</button>
+              
             </form>
+            </div>
           </div>
           <div>
             {records.map((curElem) => {
