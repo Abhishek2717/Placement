@@ -2,94 +2,47 @@ import React, {component, useState} from 'react';
 import './login.css';
 const Login = () => {
 
-    const [userRegistration,setUserRegistration]=useState(
-        {
-            username:"",
-            password:""
-        }
-    );
-
-    const [records, setRecords] = useState([]);
-
-    const handleInput = (e) =>{
-
-        const name=e.target.name;
-        const value=e.target.value;
-        console.log(name,value);
-        setUserRegistration({...userRegistration, [name] : value });
-
-    }
-
-
-
-    const handleSubmit = (e) =>{
-        e.preventDefault();
-    
-        const newRecord = {...userRegistration, id : new Date().getTime().toString() }
-       console.log(records);
-    
-        setRecords([...records, newRecord]);
-        console.log(records);
-
-        setUserRegistration({username:"",password:""});
-
-    }
+  
 
     return (
       <>
         <body>
-          <div className="box">
-            <div className='innerbox'>
-              <div className='logo'>
-              <img src='logo.jpg' alt="hello" ></img>
-              </div>              <br></br><br></br>
-            <form action="" onSubmit={handleSubmit}>
-              <div className='innnerbox'>
+          <div className="login-box">
+            <img src="logo.jpg" alt="hello" width={"100px"}></img>
+            <br></br><br></br>
+            <h2>Login</h2>
+            <br></br>
+            <form action="">
+              <div className="user-box">
                 {/* <i style="font-size:24px" class="fas">
                 &#xf406;
               </i> */}
-                <label htmlFor="username">Username</label>
-                <br></br>
                 <input
                   type="text"
                   autoComplete="off"
-                  value={userRegistration.username}
-                  onChange={handleInput}
                   name="username"
                   id="username"
                 />
+                <label htmlFor="username">Username</label>
               </div>
 
-              <div className='innnerbox'>
-                {/* <i style="font-size:24px" class="fas">
-                &#xf023;
-              </i> */}
-                <label htmlFor="password">Password</label>
-<br></br>
+              <div className="user-box">
                 <input
-                  type="text"
+                  type="password"
                   autoComplete="off"
-                  value={userRegistration.password}
-                  onChange={handleInput}
                   name="passsword"
                   id="password"
+                  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                  title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                  placeholder=""
+                  required=""
                 />
+                <label htmlFor="password">Password</label>
               </div>
-              <br></br>
-              <button type="submit">Login In</button>
+
+              <button type="submit" >Login</button>
               
             </form>
-            </div>
-          </div>
-          <div>
-            {records.map((curElem) => {
-              return (
-                <div className="showDataStyle">
-                  <p>{curElem.usernmae}</p>
-                  <p>{curElem.password}</p>
-                </div>
-              );
-            })}
           </div>
         </body>
       </>
