@@ -1,22 +1,29 @@
+body
+{
+    background-image: url("back.jpg");
+    color: white;
+}
 .emp-profile
 {
-
-    width: 1000px;
+    margin-top: 30px;
+    width: 70%;
     padding: 100px;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 100px;
 
 }
 .profile-img img
 {
-    width: 200px;
+    width: 60%;
     border-radius: 200px;
 }
 .profile-head
 {
 
 }
-.profile-work
+.profile-work a
 {
-
+    padding: 20px;
 }
 .about-info
 {
@@ -29,4 +36,49 @@
 .tab-pane
 {
 
+}
+.head 
+{
+    color: blue;
+}
+.profile-edit-btn
+{
+    position: relative;
+    display: inline-block;
+    /* padding: 10px 35px; */
+    color: #03e9f4;
+    background-color: transparent;
+    /* font-size: 16px; */
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-left: 0px;
+    
+    width: 60%;
+    border-radius: 50px;
+    height: 40px;
+}
+.profile-edit-btn:hover
+{
+ background: #03e9f4;
+    color: #fff;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+}
+.nav-link
+{
+    color: blue;
+}
+.nav-link:hover
+{
+    color: #03e9f4;
+}
+h5
+{
+    font-size: 23px;
 }
