@@ -26,8 +26,8 @@ const About = () =>
 
               <div className="col-md-6">
                 <div className="profile-head">
-                  <h5>Prakhar Mamgain</h5>
-                  <h5>Btech CST</h5>
+                  <h5>Abhisehk Pal</h5>
+                  <h5>Btech CSE</h5>
                   <h5>6th semester</h5>
                   <br></br>
                   <br></br>
@@ -99,25 +99,25 @@ const About = () =>
               <div className="col-md-4">
                 <div className="profile-work">
                   <a
-                    href="https://www.linkedin.com/in/prakhar-mamgain-746b341ab/"
+                    href="https://www.linkedin.com/in/abhishek-pal-952541152/"
                     target="_smile"
                   >
                     LinkedIn
                   </a>
                   <br></br>
                   <br></br>
-                  <a href="https://github.com/ProPrakhar332" target="_smile">
+                  <a href="https://github.com/Abhishek2717" target="_smile">
                     GitHub
                   </a>
                   <br></br>
                   <br></br>
-                  <a href="https://leetcode.com/ProPrakhar/" target="_smile">
+                  <a href="https://leetcode.com/abhi2717/" target="_smile">
                     LeetCode
                   </a>
                   <br></br>
                   <br></br>
                   <a
-                    href="https://www.hackerrank.com/leviquackerman0"
+                    href="https://www.hackerrank.com/work/login"
                     target="_smile"
                   >
                     HackerRank
@@ -125,7 +125,7 @@ const About = () =>
                   <br></br>
                   <br></br>
                   <a
-                    href="https://www.hackerearth.com/@mamgain332prakhar"
+                    href="https://www.hackerearth.com/@abhishek8130"
                     target="_smile"
                   >
                     HackerEarth
@@ -147,7 +147,7 @@ const About = () =>
                         <label>Father's Name</label>
                       </div>
                       <div className="col-md-6">
-                        <label>Prabodh Mamgain</label>
+                        <label>Bhagwan Singh Pal</label>
                       </div>
                     </div>
                     <div className="row mt-3">
@@ -155,7 +155,7 @@ const About = () =>
                         <label>Father's Mobile Number</label>
                       </div>
                       <div className="col-md-6">
-                        <label>9759010954</label>
+                        <label>9752283140</label>
                       </div>
                     </div>
                     <div className="row mt-3">
@@ -163,7 +163,7 @@ const About = () =>
                         <label>Mother's Name</label>
                       </div>
                       <div className="col-md-6">
-                        <label>Anita Mamgain</label>
+                        <label>Suman Pal</label>
                       </div>
                     </div>
                     <div className="row mt-3">
@@ -171,7 +171,7 @@ const About = () =>
                         <label>Mother's Mobile Number</label>
                       </div>
                       <div className="col-md-6">
-                        <label>9412152552</label>
+                        <label>7300600138</label>
                       </div>
                     </div>
                   </div>
@@ -187,7 +187,7 @@ const About = () =>
                         <label>Name</label>
                       </div>
                       <div className="col-md-6">
-                        <label>Prakhar Mamgain</label>
+                        <label>Abhishek Pal</label>
                       </div>
                     </div>
                     <div className="row mt-3">
@@ -195,7 +195,7 @@ const About = () =>
                         <label>Father's Name</label>
                       </div>
                       <div className="col-md-6">
-                        <label>Mr. Prabodh Mamgain</label>
+                        <label>Mr. Bhagwan Singh Pal</label>
                       </div>
                     </div>
                     <div className="row mt-3">
@@ -203,7 +203,7 @@ const About = () =>
                         <label>Mother's Name</label>
                       </div>
                       <div className="col-md-6">
-                        <label>Mrs. Anita Mamgain</label>
+                        <label>Mrs. Suman Pal</label>
                       </div>
                     </div>
                     <div className="row mt-3">
@@ -211,7 +211,7 @@ const About = () =>
                         <label>Date of Birth</label>
                       </div>
                       <div className="col-md-6">
-                        <label>22-09-2001</label>
+                        <label>17 June 2000</label>
                       </div>
                     </div>
                   </div>
@@ -227,7 +227,7 @@ const About = () =>
                         <label>Email</label>
                       </div>
                       <div className="col-md-6">
-                        <label>mamgain332prakhar@gmail.com</label>
+                        <label>abhishekpal.geu@gmail.com</label>
                       </div>
                     </div>
                     <div className="row mt-3">
@@ -235,7 +235,7 @@ const About = () =>
                         <label>Phone Number</label>
                       </div>
                       <div className="col-md-6">
-                        <label>9759010954</label>
+                        <label>9027385767</label>
                       </div>
                     </div>
                     <div className="row mt-3">
@@ -243,7 +243,7 @@ const About = () =>
                         <label>Permanent Address</label>
                       </div>
                       <div className="col-md-6">
-                        <label>74/15 Ashok Vihar,Dehradun</label>
+                        <label>27/2 karanpur road,Dehradun</label>
                       </div>
                     </div>
                   </div>
@@ -259,7 +259,7 @@ const About = () =>
                         <label>University Roll Number</label>
                       </div>
                       <div className="col-md-6">
-                        <label>2015394</label>
+                        <label>2014524</label>
                       </div>
                     </div>
                     <div className="row mt-3">
@@ -267,7 +267,7 @@ const About = () =>
                         <label>CGPA(in %)</label>
                       </div>
                       <div className="col-md-6">
-                        <label>92</label>
+                        <label>89</label>
                       </div>
                     </div>
 
@@ -276,7 +276,7 @@ const About = () =>
                         <label>Marks in XII(in %)</label>
                       </div>
                       <div className="col-md-6">
-                        <label>92</label>
+                        <label>84</label>
                       </div>
                     </div>
                     <div className="row mt-3">
@@ -284,7 +284,7 @@ const About = () =>
                         <label>Marks in X(in %)</label>
                       </div>
                       <div className="col-md-6">
-                        <label>91.5</label>
+                        <label>74</label>
                       </div>
                     </div>
                   </div>
@@ -315,7 +315,7 @@ const About = () =>
                         <label>Aadhar Number</label>
                       </div>
                       <div className="col-md-6">
-                        <label>2090351486</label>
+                        <label>965990906634</label>
                       </div>
                     </div>
                     <div className="row mt-3">
