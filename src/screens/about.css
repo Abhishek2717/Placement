@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("back.jpg");
+    background-image: url("BACKGROUND.jpg");
     color: white;
 }
 .emp-profile
@@ -39,7 +39,7 @@ body
 }
 .head 
 {
-    color: blue;
+    color: #03e9f4;
 }
 .profile-edit-btn
 {
@@ -72,7 +72,7 @@ body
 }
 .nav-link
 {
-    color: blue;
+    color: #03e9f4;
 }
 .nav-link:hover
 {
@@ -81,4 +81,8 @@ body
 h5
 {
     font-size: 23px;
+}
+.profile-work a
+{
+    color: #03e9f4;  
 }
